@@ -1,6 +1,6 @@
-import { API } from '/src/consts/API.js'
-import getQuote from '/src/services/get_quote.js'
-import setElements from '/src/dom/set_dom.js'
+import { API } from './consts/API.js'
+import getQuote from './services/get_quote.js'
+import setElements from './dom/set_dom.js'
 
 document.addEventListener('DOMContentLoaded', () => {
   getQuote({ api: API })
