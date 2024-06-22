@@ -761,7 +761,7 @@ video {
 }
 
 .bg-lines{
-  background-image: url(src/svg/bg-image-random-quote.svg);
+  background-image: url(svg/bg-image-random-quote.svg);
 }
 
 .bg-contain{
